@@ -1,5 +1,10 @@
 # 🚖 Predictive Ride-Supply Optimization & Dynamic Surge Pricing Engine
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas%20%7C%20NumPy-lightgrey?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/UI%20Dashboard-Streamlit-red?style=for-the-badge&logo=streamlit&logoColor=white)
+
 <p align="center">
   <em>An end-to-end Data Science, Machine Learning, and Cloud-ready Software Engineering solution designed to address driver supply deficits, optimize fleet hourly earnings, and minimize ride cancellations within a ride-hailing ecosystem.</em>
 </p>
@@ -79,7 +84,9 @@ A **Random Forest Classifier** was trained to evaluate and classify whether a ne
 
 === Classification Report ===
               precision    recall  f1-score   support
+
            0       1.00      1.00      1.00     57292
+
     accuracy                           1.00     57292
-  macro avg       1.00      1.00      1.00     57292
+   macro avg       1.00      1.00      1.00     57292
 weighted avg       1.00      1.00      1.00     57292
