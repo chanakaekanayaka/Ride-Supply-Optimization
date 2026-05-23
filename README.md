@@ -1,7 +1,7 @@
 # 🚖 Predictive Ride-Supply Optimization & Dynamic Surge Pricing Engine
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas%20%7C%20NumPy-lightgrey?style=for-the-badge)
 ![Dashboard](https://img.shields.io/badge/UI%20Dashboard-Streamlit-red?style=for-the-badge&logo=streamlit&logoColor=white)
 
@@ -19,6 +19,10 @@ In two-sided ride-hailing marketplaces, **driver supply deficit** is a critical 
 
 ### 💡 The Solution:
 This project engineers a robust data pipeline that ingests raw ride-sharing logs, calculates real-time net hourly earnings for drivers, trains a **Random Forest Machine Learning Classifier** to predict high-cancellation risk segments, and serves live dynamic pricing recommendations via an interactive production-grade **Streamlit Dashboard**.
+
+### 📊 Dataset Source
+> **Original Data:** [Uber and Lyft Dataset Boston, MA](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma) from Kaggle  
+> *This dataset contains over 600,000 ride-hailing transactions across Boston metropolitan area including pickup zones, trip distances, timestamps, surge multipliers, and pricing details.*
 
 ---
 
