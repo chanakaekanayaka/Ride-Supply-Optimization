@@ -393,60 +393,6 @@ Expected improvements include:
 
 ---
 
-# 📸 How to Generate dashboard_preview.png
-
-## Step 1 — Run the Streamlit Application
-
-```bash
-streamlit run src/app.py
-```
-
----
-
-## Step 2 — Set Example Dashboard Inputs
-
-Use the following test values:
-
-| Input | Value |
-|---|---|
-| Pickup Zone | Fenway |
-| Distance | 2.5 miles |
-| Hour | 17 |
-| Current Surge | 1.0x |
-
----
-
-## Step 3 — Capture Screenshot
-
-Take a full-window screenshot showing:
-
-✅ Sidebar controls  
-✅ KPI metrics  
-✅ Pie chart  
-✅ AI recommendation box
-
----
-
-## Step 4 — Save Image
-
-Save the screenshot as:
-
-```bash
-assets/dashboard_preview.png
-```
-
----
-
-## Step 5 — Commit to GitHub
-
-```bash
-git add assets/dashboard_preview.png
-git commit -m "Add dashboard preview image"
-git push
-```
-
----
-
 # 📁 Full Project Structure
 
 ```text
@@ -478,24 +424,12 @@ Ride-Supply-Optimization/
 │
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 └── LICENSE
 ```
 
 ---
 
 # 🛠️ Complete Local Installation & Deployment Guide
-
-# ✅ Prerequisites
-
-Before starting, ensure the following are installed:
-
-- Python 3.8+
-- Git
-- Jupyter Notebook
-- Minimum 4GB RAM
-
----
 
 # 🚀 Step 1 — Clone the Repository
 
@@ -597,28 +531,6 @@ You should see:
 
 ---
 
-# 📸 Taking the Final Dashboard Screenshot
-
-Use these exact test values:
-
-| Input | Value |
-|---|---|
-| Pickup Zone | Fenway |
-| Distance | 3.0 miles |
-| Hour of Day | 17 |
-| Current Surge | 1.0x |
-
-Then:
-
-✅ Take a full-screen screenshot  
-✅ Save as:
-
-```bash
-assets/dashboard_preview.png
-```
-
----
-
 # 🎯 Business Value & Measurable Outcomes
 
 | Business Metric | Before Solution | After Solution | Improvement |
@@ -662,7 +574,7 @@ Clearly visualizes:
 
 ## 🚀 Planned Enhancements
 
-- Real-time Uber/Lyft API integration
+- Real-time API integration
 - LSTM deep learning demand forecasting
 - Multi-city expansion
 - Mobile application deployment
@@ -671,52 +583,3 @@ Clearly visualizes:
 
 ---
 
-# 👨‍💻 Developer
-
-## Chanaka Ekanayaka
-
-Software Engineering & Data Science Undergraduate  
-Sri Lanka Institute of Information Technology (SLIIT)
-
-### GitHub
-
-```bash
-https://github.com/chanakaekanayaka
-```
-
-### LinkedIn
-
-```bash
-https://www.linkedin.com/in/chanaka-ekanayaka
-```
-
-### Email
-
-```bash
-chanaka.e@example.com
-```
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-# 🙏 Acknowledgments
-
-Special thanks to:
-
-- Kaggle
-- Scikit-learn Community
-- Streamlit Team
-- SLIIT Faculty of Computing
-
-for providing tools, datasets, and academic guidance.
-
----
-
-<p align="center">
-  <strong>Built with ❤️ for smarter ride-hailing economics</strong>
-</p>
